@@ -1,4 +1,3 @@
-
 const fs = require("fs");
 var data = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
 
@@ -38,7 +37,6 @@ module.exports = function(app) {
 
         let noteId = req.params.id;
         let newId = 0;
-        console.log(`Deleting note with id ${noteId}`);
         data = data.filter(currentNote => {
            return currentNote.id != noteId;
         });
