@@ -26,5 +26,5 @@ You begin the app with the "Get Started" button which will direct you to another
 If you want to contact me you can reach me at banda_adrian@outlook.com.
 
 ## Links
-[Heroku](https://git.heroku.com/note-taker-ab.git)  
+[Heroku](https://note-taker-ab.herokuapp.com/)  
 [Github](https://github.com/banda-adrian)
